@@ -1,4 +1,3 @@
-
 export const createLogInView = () => {
   const loginSection = document.createElement("section");
   loginSection.setAttribute('class', 'login-section');
