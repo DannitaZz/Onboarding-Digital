@@ -1,0 +1,47 @@
+{
+    "usuarios":
+    [
+      {
+        "nombreRepresentanteLegal": "",
+        "cedulaRepresentanteLegal": "",
+        "nombreEmpresa": "",
+        "nit": "",
+        "correo": ""
+      },
+      {
+        "nombreRepresentanteLegal": "",
+        "cedulaRepresentanteLegal": "",
+        "nombreEmpresa": "",
+        "nit": "",
+        "correo": ""
+      },
+      {
+        "nombreRepresentanteLegal": "",
+        "cedulaRepresentanteLegal": "",
+        "nombreEmpresa": "",
+        "nit": "",
+        "correo": ""
+      },
+      {
+        "nombreRepresentanteLegal": "",
+        "cedulaRepresentanteLegal": "",
+        "nombreEmpresa": "",
+        "nit": "",
+        "correo": ""
+      },
+      {
+        "nombreRepresentanteLegal": "",
+        "cedulaRepresentanteLegal": "",
+        "nombreEmpresa": "",
+        "nit": "",
+        "correo": ""
+      },
+      {
+        "nombreRepresentanteLegal": "",
+        "cedulaRepresentanteLegal": "",
+        "nombreEmpresa": "",
+        "nit": "",
+        "correo": ""
+      }
+    ]     
+  }
