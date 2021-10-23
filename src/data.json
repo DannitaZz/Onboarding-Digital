@@ -2,11 +2,11 @@
     "usuarios":
     [
       {
-        "nombreRepresentanteLegal": "MANUEL HERNANDO ORTIZ ORTIZ",
-        "cedulaRepresentanteLegal": "79156264",
+        "nombreRepresentanteLegal": "KAREN LORENA POVEDA LASPRILLA",
+        "cedulaRepresentanteLegal": "79156888",
         "nombreEmpresa": "MEGAVIAL SOCIEDAD POR ACCIONES SIMPLIFICADA",
         "nit": "900144756",
-        "correo": "megavial@gmail.com"
+        "correo": "karenpoveda29@gmail.com"
       },
       {
         "nombreRepresentanteLegal": "LORRAINE GELIS DIAZ ",
@@ -30,18 +30,18 @@
         "correo": "danna@gmail.com"
       },
       {
-        "nombreRepresentanteLegal": "",
-        "cedulaRepresentanteLegal": "",
-        "nombreEmpresa": "",
-        "nit": "",
-        "correo": ""
+        "nombreRepresentanteLegal": "DANIELA SUSANA FUNES VIDAURRETA",
+        "cedulaRepresentanteLegal": "718752",
+        "nombreEmpresa": "DANIELA LTDA",
+        "nit": "887754321",
+        "correo": "danielafunes1970@gmail.com"
       },
       {
-        "nombreRepresentanteLegal": "",
-        "cedulaRepresentanteLegal": "",
-        "nombreEmpresa": "",
-        "nit": "",
-        "correo": ""
+        "nombreRepresentanteLegal": "NINA BELLA MARCANO FUNES",
+        "cedulaRepresentanteLegal": "718753",
+        "nombreEmpresa": "HUESITOS LTDA",
+        "nit": "234123455",
+        "correo": "danielafunes1970@hotmail.com"
       }
     ]     
   }
