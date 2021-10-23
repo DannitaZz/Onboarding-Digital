@@ -23,14 +23,24 @@
     <!-- Add Firebase products that you want to use -->
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
     <script>
-      // TODO: Replace the following with your app's Firebase project configuration
-      // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+            apiKey: "AIzaSyCCKfC18HiDVMxY5_820rEqK4sL01v2pdg",
+            authDomain: "onboardingdigital-1f48f.firebaseapp.com",
+            projectId: "onboardingdigital-1f48f",
+            storageBucket: "onboardingdigital-1f48f.appspot.com",
+            messagingSenderId: "286988595771",
+            appId: "1:286988595771:web:4aefa7aa4b7b2e4ce5e21e",
+            measurementId: "G-3XS3HSQ39F"
+};
 
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       const db = firebase.firestore();
       db.settings({timestampsInSnapshots: true});
+
     </script>
     <script type="module" src="main.js"></script>
   </body>
