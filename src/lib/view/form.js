@@ -1,4 +1,3 @@
-
 export const formInView = () => {
   const formSection = document.createElement("section");
   formSection.setAttribute('class', 'form-section');
