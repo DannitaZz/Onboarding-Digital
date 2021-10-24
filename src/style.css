@@ -3,13 +3,22 @@
 
 * {
   box-sizing: border-box; 
+  --main-color: #0F3669;
 }
 
 body {
-  font-size: 1.7rem; 
+  font-size: 1rem; 
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  
+}
+
+header {
+  background-color: var(--main-color);
+  padding: 0.6rem 0.6rem;
+}
+
+p {
+  margin:0;
 }
 
 .info-section {
@@ -26,6 +35,8 @@ body {
 }
 
 .bienvenida {
+  margin-left: 2rem;
+  font-size: 1.7rem;
   color: #fff;
   margin-top: 7rem;
   font-weight: 300;
@@ -50,6 +61,7 @@ body {
 }
 
 .requisitos {
+  margin-left: 2rem;
   color: #fff;
   font-size: 0.9rem;
   margin-top: 16rem;
@@ -58,11 +70,80 @@ body {
 }
 
 .listaRequisitos {
+  margin-left: 2rem;
   color: #fff;
   font-size: 0.9rem;
   margin-top: 0;
   font-weight: 300;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*estilos formularios*/
+.form-section, .login-section {
+  margin: 2.5rem 2.5rem;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2rem;
+  color: var(--main-color);
+  font-size: 2rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 2px solid var(--main-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: .4rem 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #bbbbbb;
+}
+
+.btn-file {
+  border: #fff;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0px;
+}
+
+.btn-file::file-selector-button {
+  border: 2px solid #124991;
+  padding: .2em .4em;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: .3rem;
+}
+
+.btn-send {
+  border-radius: 8px;
+  background-color: #5BBEFF;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  border-color: #5BBEFF;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: .4rem;
 }
 
 /*estilos vista 4 */
@@ -72,19 +153,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  backdrop-filter: blur(10px);
-  margin-left: 0rem;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 89.45vh;
   opacity: 0.77;
+
 }
 
 .message {
+  width: 80%;
   font-size: 1.4rem;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
 }
