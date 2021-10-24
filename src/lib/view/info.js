@@ -10,7 +10,16 @@ export const infoInView = () => {
       <li>Cédula del representante legal</li>
     </ul>
     <button class="btn" id="btnEnter">INGRESA AQUÍ</button>
+
   `;
+
+  //boton para ingresar a formulario de entrada
+
   infoSection.innerHTML = loginSection;
+  
+  const btnSingIn= infoSection.querySelector("#btnEnter");
+  btnSingIn.addEventListener('click', (e) => {
+    window.location.hash = '#/ingreso';
+  });
   return infoSection;
 };
