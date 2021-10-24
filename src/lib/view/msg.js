@@ -5,5 +5,6 @@ export const messageInView = () => {
     <p class="message">Tu solicitud ha sido enviada con éxito. En los próximos días hábiles recibirás al correo electrónico información sobre tu cuenta.</p>
   `;
   messageSection.innerHTML = messageView;
+  localStorage.clear();
   return messageSection;
 };
