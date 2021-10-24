@@ -16,7 +16,7 @@ export const createLogInView = () => {
       <input type="text"  name="busiName" id="businessName" placeholder="Ejemplo: Distribuidora Lorraine SAS">
     <p class="autExitosa hide" id="autExitosa">Autenticación exitosa. Revisa la bandeja de entrada 
       del correo registrado en Cámara de Comercio para continuar con el proceso.</p>
-    <button type="submit" id="btnenviar" class="btn-send"> enviar </button>   
+    <button type="submit" id="btnenviar" class="btn-send">ENVIAR</button>   
 
   </form>
  
