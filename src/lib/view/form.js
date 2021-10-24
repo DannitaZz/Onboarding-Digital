@@ -15,7 +15,7 @@ export const formInView = () => {
       <input type="text" name="city" id="city" placeholder="Ejemplo: Bogotá">
     <label for="departamento">Departamento</label>  
       <input type="text" name="departamento" id="departamento" placeholder="Ejemplo: Cundinamarca">
-    <label for="file">Sube los documentos</label>
+    <label for="file" class="label-file">Sube los documentos</label>
       <input type="file" name="file" id="file" multiple="multiple" class="btn-file"> 
     <p>Documentos requeridos:</p>
     <ul>
@@ -24,7 +24,8 @@ export const formInView = () => {
       <li>Documento de identidad</li>
     </ul>
     <p>Subir todos los documentos en formato PDF</p>
-    <button type="submit" class="btn btn-send" id="form">ENVIAR</button>   
+
+    <button type="submit" class="btn-send" id="form">ENVIAR</button>   
 
   </form>
   `;
@@ -84,3 +85,4 @@ export const formInView = () => {
   return formSection;
   
 }
+
