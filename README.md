@@ -1,5 +1,8 @@
 # HACKATHON BBVA 2021 - RETO ONBOARDING DIGITAL
 
+ INSTRUCCCIONES PARA PROBAR LA APLICACIÓN:
+ Instrucciones para probar la app: si ingresa Katherine Duque debe poner en el campo NIT 090909098 usando el correo de BBVA. Si ingresa Laura Jaramillo debe poner en NIT 343434345 usando su correo de BBVA. Usar estos datos cuando sean pedidos en el primer formulario. Los demás datos se pueden llenar con cualquier información.
+
 * [Link a nuestra aplicación](https://dannitazz.github.io/Onboarding-Digital/src/index.html)
 
 En la actualidad, el acceso fácil y eficaz a los servicios bancarios es una necesidad potencializada. En medio de una pandemia, encontrar este tipo de recursos se hizo más evidente y forzoso, ya que el acceso físico a las oficinas bancarias se ha visto drásticamente limitado. Y ahora, que estamos apostando por una reactivación económica, el BBVA quiere ayudar a las PYMES con el acceso a los servicios financieros de forma fácil, segura y usando la más avanzada tecnología.
