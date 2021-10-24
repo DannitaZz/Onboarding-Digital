@@ -5,16 +5,38 @@
 
   .bienvenida {
     font-size: 2.5rem;
+    margin-left: 4rem;
   }
 
   .requisitos {
     font-size: 1.3rem;
+    margin-left: 4rem;
   }
 
   .listaRequisitos {
     font-size: 1.3rem;
+    margin-left: 4rem;
   }
 
+  .btn {
+    margin-top: 6rem;
+  }
+
+  /*formularios*/
+  header {
+    padding: 0.8rem 0.8rem;
+  }
+
+  form {
+    width: 50%;
+    margin: auto;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  /*vista4*/
   .message-section {
     height: 90.2vh;
   }
