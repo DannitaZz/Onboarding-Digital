@@ -16,7 +16,7 @@ export const infoInView = () => {
   //boton para ingresar a formulario de entrada
 
   infoSection.innerHTML = loginSection;
-  
+  localStorage.clear();
   const btnSingIn= infoSection.querySelector("#btnEnter");
   btnSingIn.addEventListener('click', (e) => {
     window.location.hash = '#/ingreso';
