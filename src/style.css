@@ -9,23 +9,25 @@ body {
   font-size: 1.7rem; 
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  
+}
+
+.info-section {
   background-image: url("img/close-up-of-businessman-with-digital-tablet.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   backdrop-filter: blur(3px);
-}
-
-.info-section {
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+  margin-left: 0rem;
+  height: 89.45vh;
 }
 
 .bienvenida {
   color: #fff;
-  margin-top: 8rem;
+  margin-top: 7rem;
   font-weight: 300;
   width: 80%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
@@ -39,15 +41,14 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
-  /*border-color:(0px 4px 4px rgba(0, 0, 0, 0.25));*/
   border-color: #5BBEFF;
-  /*position: absolute;*/
   width: 208px;
   height: 46px;
-  /*left: 90px;*/
   top: 750px;
   margin-top: 1rem;
+  cursor: pointer;
 }
+
 .requisitos {
   color: #fff;
   font-size: 0.9rem;
@@ -55,10 +56,35 @@ body {
   margin-bottom: 0;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 }
+
 .listaRequisitos {
   color: #fff;
   font-size: 0.9rem;
   margin-top: 0;
   font-weight: 300;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*estilos vista 4 */
+.message-section {
+  background-image: url("img/group-of-people-working-out-business-plan-in-an-office.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  backdrop-filter: blur(10px);
+  margin-left: 0rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89.45vh;
+  opacity: 0.77;
+}
+
+.message {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
 }
