@@ -1,5 +1,7 @@
 # HACKATHON BBVA 2021 - RETO ONBOARDING DIGITAL
 
+* [Link a nuestra aplicación](https://dannitazz.github.io/Onboarding-Digital/src/index.html)
+
 En la actualidad, el acceso fácil y eficaz a los servicios bancarios es una necesidad potencializada. En medio de una pandemia, encontrar este tipo de recursos se hizo más evidente y forzoso, ya que el acceso físico a las oficinas bancarias se ha visto drásticamente limitado. Y ahora, que estamos apostando por una reactivación económica, el BBVA quiere ayudar a las PYMES con el acceso a los servicios financieros de forma fácil, segura y usando la más avanzada tecnología.
 
 Para ello hemos propuesto una web app en la que los usuarios pymes pueden abrir una cuenta de ahorros/corriente mediante la carga de archivos y autenticación de usuario vía e-mail, según la información existente en cámara de comercio y RUT.
