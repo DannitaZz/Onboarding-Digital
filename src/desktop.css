@@ -36,6 +36,12 @@
     font-size: 1.2rem;
   }
 
+  .autExitosa {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   /*vista4*/
   .message-section {
     height: 90.2vh;
