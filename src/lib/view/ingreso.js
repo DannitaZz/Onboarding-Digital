@@ -12,10 +12,11 @@ export const createLogInView = () => {
       <input type="text" name="nit" id="nit" placeholder="Sin dígito de verificación">
     <label for="businessName">Nombre de la empresa</label>
       <input type="text" name="busiName" id="businessName" placeholder="Ejemplo: Distribuidora Lorraine SAS">
- 
+    <p class="autExitosa hide">Autenticación exitosa. Revisa la bandeja de entrada 
+    del correo registrado en Cámara de Comercio para continuar con el proceso.</p>
     <button type="submit" class="btn-send">ENVIAR</button>   
- 
   </form>
+ 
   `
   loginSection.innerHTML = loginView;
 
