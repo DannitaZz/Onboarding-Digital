@@ -146,6 +146,13 @@ label {
   padding: .4rem;
 }
 
+.autExitosa {
+  color: #189d15;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
 /*estilos vista 4 */
 .message-section {
   background-image: url("img/group-of-people-working-out-business-plan-in-an-office.jpg");
@@ -167,4 +174,8 @@ label {
   color: #fff;
   font-weight: 400;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+}
+
+.hide {
+  display: none;
 }
